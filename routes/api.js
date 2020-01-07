@@ -14,6 +14,7 @@ Router.get('/getdata', function (req, res) {
 		} else {
 			//console.log(user);
 			res.send(user);
+			
 		}
 	});
 
